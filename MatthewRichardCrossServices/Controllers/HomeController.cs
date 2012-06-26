@@ -10,7 +10,7 @@ namespace MatthewRichardCrossServices.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to Matthew Ricahrd Cross Services";
+            ViewBag.Message = "Welcome to Matthew Ricahrd Cross Services ";
 
             return View();
         }
