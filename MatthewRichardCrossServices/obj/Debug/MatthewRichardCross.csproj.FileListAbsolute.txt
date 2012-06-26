@@ -1,0 +1,7 @@
+C:\Projects\MatthewRichardCross\MatthewRichardCross\bin\MatthewRichardCross.dll
+C:\Projects\MatthewRichardCross\MatthewRichardCross\bin\MatthewRichardCross.pdb
+C:\Projects\MatthewRichardCross\MatthewRichardCross\bin\EntityFramework.dll
+C:\Projects\MatthewRichardCross\MatthewRichardCross\bin\EntityFramework.xml
+C:\Projects\MatthewRichardCross\MatthewRichardCross\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\MatthewRichardCross\MatthewRichardCross\obj\Debug\MatthewRichardCross.dll
+C:\Projects\MatthewRichardCross\MatthewRichardCross\obj\Debug\MatthewRichardCross.pdb
