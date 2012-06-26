@@ -3,31 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Microsoft.Practices.Unity;
+using MatthewRichardCrossServices.Repositories.Interfaces;
 
 
 namespace MatthewRichardCrossServices.Repositories
 {
-    public class ModelContainer
+    public static class ModelContainer
     {
-        public static class ModelContainer
-        {
-            private static readonly object key = new object();
-            private static IUnityContainer instance;
+        private static readonly object key = new object();
+        private static IUnityContainer instance;
 
-            static ModelContainer()
+        static ModelContainer()
+        {
+            instance = new UnityContainer();
+        }
+
+        public static IUnityContainer Instance
+        {
+            get
             {
                 instance = new UnityContainer();
-            }
-
-            public static IUnityContainer Instance
-            {
-                get
-                {
-                    instance = new UnityContainer();
-                    instance.RegisterType<IBikeRepository, BikeRepositry>();
-                    instance.RegisterType<IPersonRepository, PersonRepository>();
-                    return instance;
-                }
+                instance.RegisterType<IPortfolioFullItemRepository, PortfolioFullItemRepository>();
+                instance.RegisterType<IPortfolioSummaryItemRepository, PortfolioSummaryItemRepository>();
+                return instance;
             }
         }
     }

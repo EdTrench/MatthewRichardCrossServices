@@ -1,5 +1,3 @@
-C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewRichardCross.dll
-C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewRichardCross.pdb
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\FluentNHibernate.dll
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Iesi.Collections.dll
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\NHibernate.dll
@@ -7,5 +5,13 @@ C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\FluentNH
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Iesi.Collections.xml
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\NHibernate.xml
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCross.dll
-C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCross.pdb
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Microsoft.Practices.Unity.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Microsoft.Practices.Unity.xml
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewRichardCrossServices.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewRichardCrossServices.pdb
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCrossServices.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCrossServices.pdb
