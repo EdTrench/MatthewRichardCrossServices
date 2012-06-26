@@ -1,0 +1,11 @@
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewRichardCross.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewRichardCross.pdb
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\FluentNHibernate.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Iesi.Collections.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\NHibernate.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\FluentNHibernate.xml
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\Iesi.Collections.xml
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\NHibernate.xml
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCross.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCross.pdb

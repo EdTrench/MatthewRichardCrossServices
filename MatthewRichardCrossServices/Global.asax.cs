@@ -35,6 +35,8 @@ namespace MatthewRichardCrossServices
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+
+            DependencyResolver.SetResolver(new UnityDependencyResolver(ModelContainer.Instance));
         }
     }
 }

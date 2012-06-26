@@ -81,6 +81,7 @@
     <Compile Include="Repositories\HHibernateHelper.cs" />
     <Compile Include="Repositories\Interfaces\IPortfolioFullItemRepository.cs" />
     <Compile Include="Repositories\Interfaces\IPortfolioSummaryItemRepository.cs" />
+    <Compile Include="Repositories\ModelContainer.cs" />
     <Compile Include="Repositories\PortfolioFullItemRepository.cs" />
   </ItemGroup>
   <ItemGroup>
