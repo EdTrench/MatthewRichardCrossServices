@@ -8,13 +8,12 @@ using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
-using FluentNHibernate.Cfg;
 
 using MatthewRichardCrossServices.Models;
 
 namespace MatthewRichardCrossServices.Repositories
 {
-    public class HHibernateHelper
+    public class NHibernateHelper
     {
         private static ISessionFactory SessionFactory
         {

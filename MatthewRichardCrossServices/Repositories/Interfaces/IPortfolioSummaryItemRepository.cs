@@ -6,7 +6,7 @@ using MatthewRichardCrossServices.Models;
 
 namespace MatthewRichardCrossServices.Repositories.Interfaces
 {
-    interface IPortfolioSummaryItemRepository
+    public interface IPortfolioSummaryItemRepository
     {
         void Add(PortfolioSummaryItem portfolioSummaryItem);
         void Update(PortfolioSummaryItem portfolioSummaryItem);

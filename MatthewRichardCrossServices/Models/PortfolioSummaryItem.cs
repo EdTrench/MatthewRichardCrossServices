@@ -8,6 +8,7 @@ namespace MatthewRichardCrossServices.Models
     public class PortfolioSummaryItem
     {
         public virtual Int64 Id { get; set; }
+        public virtual IList<PortfolioFullItem> PortfolioFullItems { get; set; }
         public virtual String Name { get; set; }
         public virtual String DescriptionText { get; set; }
         public virtual String PhotographLocation { get; set; }
