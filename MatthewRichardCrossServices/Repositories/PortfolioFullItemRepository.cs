@@ -5,40 +5,72 @@ using System.Web;
 using NHibernate;
 using NHibernate.Linq;
 using MatthewRichardCrossServices.Repositories.Interfaces;
-
+using MatthewRichardCrossServices.Models;
 
 namespace MatthewRichardCrossServices.Repositories
 {
     public class PortfolioFullItemRepository : IPortfolioFullItemRepository
     {
-        public void Add(Models.PortfolioFullItem portfolioFullItem)
+        public void Add(PortfolioFullItem portfolioFullItem)
         {
-            throw new NotImplementedException();
+            using (ISession session = NHibernateHelper.OpenSession())
+            using (ITransaction transaction = session.BeginTransaction())
+            {
+                session.Save(portfolioFullItem);
+                transaction.Commit();
+            }
         }
 
-        public void Update(Models.PortfolioFullItem portfolioFullItem)
+        public void Update(PortfolioFullItem portfolioFullItem)
         {
-            throw new NotImplementedException();
+            using (ISession session = NHibernateHelper.OpenSession())
+            using (ITransaction transaction = session.BeginTransaction())
+            {
+                session.Update(portfolioFullItem);
+                transaction.Commit();
+            }
         }
 
-        public void Remove(Models.PortfolioFullItem portfolioFullItem)
+        public void Remove(PortfolioFullItem portfolioFullItem)
         {
-            throw new NotImplementedException();
+            using (ISession session = NHibernateHelper.OpenSession())
+            using (ITransaction transaction = session.BeginTransaction())
+            {
+                session.Delete(portfolioFullItem);
+                transaction.Commit();
+            }
         }
 
-        public Models.PortfolioFullItem GetById(long id)
+        public PortfolioFullItem GetById(long id)
         {
-            throw new NotImplementedException();
+            using (ISession session = NHibernateHelper.OpenSession())
+            {
+                var query = from portfolioFullItem in session.Query<PortfolioFullItem>()
+                            where portfolioFullItem.Id == id
+                            select portfolioFullItem;
+                return query.Single();
+            }
         }
 
-        public IList<Models.PortfolioFullItem> GetByPortfolioSummaryItemId(long portfolioSummaryItemId)
+        public IList<PortfolioFullItem> GetByPortfolioSummaryItemId(long portfolioSummaryItemId)
         {
-            throw new NotImplementedException();
+            using (ISession session = NHibernateHelper.OpenSession())
+            {
+                var query = from portfolioFullItem in session.Query<PortfolioFullItem>()
+                            where portfolioFullItem.PortfolioSummaryItem.Id == portfolioSummaryItemId
+                            select portfolioFullItem;
+                return query.ToList();
+            }
         }
 
-        public IList<Models.PortfolioFullItem> GetAll()
+        public IList<PortfolioFullItem> GetAll()
         {
-            throw new NotImplementedException();
+            using (ISession session = NHibernateHelper.OpenSession())
+            {
+                var query = from portfolioFullItem in session.Query<PortfolioFullItem>()
+                            select portfolioFullItem;
+                return query.ToList();
+            }
         }
     }
 }
