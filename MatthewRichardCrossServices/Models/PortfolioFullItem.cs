@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MatthewRichardCrossServices.Models
 {
-    public class PortfolioFullItem
+    public class PortfolioFullItem 
     {
         public virtual Int64 Id { get; set; }
         public virtual PortfolioSummaryItem PortfolioSummaryItem { get; set; }
