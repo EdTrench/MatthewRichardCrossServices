@@ -11,17 +11,17 @@
 }
 
 .jcarousel-skin-ie7 .jcarousel-container-horizontal {
-    width: 100%;
+    width: 1620px;
     /*width: 1620px;*/
     height: 550px;
     padding: 10px 10px;
 }
 
-/*.jcarousel-skin-ie7 .jcarousel-container-vertical {
+.jcarousel-skin-ie7 .jcarousel-container-vertical {
     width: 00px;
     height: 00px;
     padding: 20px 40px;
-}*/
+}
 
 .jcarousel-skin-ie7 .jcarousel-clip {
     overflow: hidden;
@@ -29,18 +29,18 @@
 
 .jcarousel-skin-ie7 .jcarousel-clip-horizontal 
 {
-    width: 100%;
-    /*width:  1620px;*/
+    width: 1620px;
+    width:  1620px;
     height: 750px;
 }
 
-/*.jcarousel-skin-ie7 .jcarousel-clip-vertical {
+.jcarousel-skin-ie7 .jcarousel-clip-vertical {
     width:  1500px;
     height: 1300px;
-}*/
+}
 
 .jcarousel-skin-ie7 .jcarousel-item {
-    width: 1675px;
+    width: 1620px;
     height: 550px;
     border: 1px solid #fff;
 }
@@ -51,7 +51,7 @@
 }
 
 .jcarousel-skin-ie7 .jcarousel-item-horizontal {
-    margin-left: 1000;
+    margin-left: 10px;
     margin-right: 7px;
 }
 

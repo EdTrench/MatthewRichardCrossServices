@@ -105,12 +105,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\skins\captify_text\skin.css" />
-    <Content Include="Content\skins\carousel_text\loading-small.gif" />
-    <Content Include="Content\skins\carousel_text\loading.gif" />
-    <Content Include="Content\skins\carousel_text\loading_small.gif" />
-    <Content Include="Content\skins\carousel_text\next-horizontal.gif" />
-    <Content Include="Content\skins\carousel_text\prev-horizontal.gif" />
-    <Content Include="Content\skins\carousel_text\skin.css" />
     <Content Include="Content\skins\ie7\loading-small.gif" />
     <Content Include="Content\skins\ie7\loading.gif" />
     <Content Include="Content\skins\ie7\loading_small.gif" />
