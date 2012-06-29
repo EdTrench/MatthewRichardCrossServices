@@ -1,0 +1,27 @@
+﻿.captify-skin-captify_text .caption-top, .caption-bottom {
+     background: #000000;
+     color:  #ffffff;
+     cursor:default;
+     padding:50px;
+     font-size:30px;
+     text-align:left;
+}
+ 
+.captify-skin-captify_text .caption-top {
+     border-width:0px;
+}
+ 
+.captify-skin-captify_text .caption-bottom {
+     border-width:0px;
+}
+ 
+.captify-skin-captify_text .caption a, .caption a {
+     background:#000;
+     border:none;
+     text-decoration:none;
+     padding:2px;
+}
+ 
+.captify-skin-captify_text .caption a:hover, .caption a:hover {
+     background:#202020;
+}
