@@ -104,7 +104,13 @@
     <Compile Include="ViewModels\PortfolioItemViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\skins\ie7\test.css" />
+    <Content Include="Content\skins\captify_text\skin.css" />
+    <Content Include="Content\skins\carousel_text\loading-small.gif" />
+    <Content Include="Content\skins\carousel_text\loading.gif" />
+    <Content Include="Content\skins\carousel_text\loading_small.gif" />
+    <Content Include="Content\skins\carousel_text\next-horizontal.gif" />
+    <Content Include="Content\skins\carousel_text\prev-horizontal.gif" />
+    <Content Include="Content\skins\carousel_text\skin.css" />
     <Content Include="Content\skins\ie7\loading-small.gif" />
     <Content Include="Content\skins\ie7\loading.gif" />
     <Content Include="Content\skins\ie7\loading_small.gif" />
@@ -146,6 +152,7 @@
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\lib\captify.tiny.js" />
     <Content Include="Scripts\lib\jquery.jcarousel.js" />
     <Content Include="Scripts\lib\jquery.jcarousel.min.js" />
     <Content Include="Scripts\modernizr-1.7.js" />

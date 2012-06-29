@@ -3,15 +3,12 @@
     ViewBag.Title = "Matthew Richard Cross Services";
 }
 
-<ul id="mycarousel" class="jcarousel-skin-ie7">
+<ul id="picture-carousel" class="mycarousel jcarousel-skin-ie7">
     @foreach(var item in Model)
     {
         <li>
             <div>
-                <span>
-                    <h4>@item.Name</h4>
-                </span>
-                <img src=@item.PhotographLocation width="100%" height="480" alt="" />
+                <img src=@item.PhotographLocation width="100%" height="480" alt=@Html.DisplayFor(modelItem => item.DescriptionText) class="captify"/>
             </div>
         </li>
     }
