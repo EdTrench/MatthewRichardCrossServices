@@ -34,7 +34,7 @@
                 // text/html to be placed at the beginning of every caption
                 prefix: "",
                 // opacity of the caption on mouse over
-                opacity: '0.7',
+                opacity: '0.8',
                 // the name of the CSS class to apply to the caption box
                 className: 'caption-bottom',
                 // position of the caption (top or bottom)
@@ -49,21 +49,19 @@
 <body>
     <div class="page">
         <div id="header">
-            <div id="title">
-                <h1>Matthew Richard Cross Services</h1>
-            </div>
             <div id="logindisplay">
-                @Html.Partial("_LogOnPartial")
+                    <li>@Html.Partial("_LogOnPartial")</li>
             </div>
-            <div id="menucontainer">
+            <div id="title">
+                <h1>LOGO</h1>
+            </div>
                 <ul id="menu">
-                    <li>@Html.ActionLink("Contact Me", "About", "Home")</li>
-                    <li>@Html.ActionLink("Enquire", "About", "Home")</li>
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("CONTACT ME", "About", "Home") / </li>
+                    <li>@Html.ActionLink("ENQUIRE", "About", "Home")  / </li>
+                    <li>@Html.ActionLink("HOME", "Index", "Home") / </li>
+                    <li>@Html.ActionLink("ABOUT", "About", "Home")</li>
                 </ul>
             </div>
-        </div>
         <div id="main">
             @RenderBody()
         </div>
