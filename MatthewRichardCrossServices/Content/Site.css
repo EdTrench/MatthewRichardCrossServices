@@ -1,6 +1,6 @@
 ﻿body 
 {
-    font-family: Gill Sans MT;
+    font-family: sans -serif;
 	font-size: 13px;
 }	
 
@@ -23,7 +23,7 @@
     padding: 1px 1px 10px 10px;
     background-color: #181818;
     color: White;
-    font-family: Arial;
+    font-family: Sans-Serif;
     font-size: 25px;
 }
 

@@ -15,9 +15,50 @@
     <script type="text/javascript">
         //JCarousel
         $(document).ready(function () {
-            jQuery('.mycarousel').jcarousel();
-            visible: 1
+            jQuery('.mycarousel').jcarousel({
+                scroll: 1,
+//                animation: 1500,
+                visible: 1,
+//                auto: 1,
+                wrap: "circular",
+//                initCallback: mycarousel_initCallback,
+//                itemVisibleInCallback: {
+//                    onAfterAnimation: function (c, o, i, s) {
+//                        i = (i - 1) % $('#mycarousel li').size();
+//                        jQuery('.jcarousel-control a').removeClass('active').addClass('inactive');
+//                        jQuery('.jcarousel-control a:eq(' + i + ')').removeClass('inactive').addClass('active');
+//                    }
+//                }
+            });
         });
+
+        //For JCarosel auto-scrolling
+        function mycarousel_initCallback(carousel) {
+
+        jQuery('.jcarousel-control a').bind('click', function () {
+            carousel.scroll(jQuery.jcarousel.intval(jQuery(this).text()));
+            return false;
+        });
+
+        jQuery('#mycarousel-next').bind('click', function () {
+            carousel.next();
+            return false;
+        });
+
+        jQuery('#mycarousel-prev').bind('click', function () {
+            carousel.prev();
+            return false;
+        });
+
+
+            // Pause autoscrolling if the user moves with the cursor over the clip.
+            carousel.clip.hover(function () {
+                carousel.stopAuto();
+            }, function () {
+                carousel.startAuto();
+            });
+
+        };
 
         //Captify
         $(document).ready(function () {
@@ -34,7 +75,7 @@
                 // text/html to be placed at the beginning of every caption
                 prefix: "",
                 // opacity of the caption on mouse over
-                opacity: '0.8',
+                opacity: '0.7',
                 // the name of the CSS class to apply to the caption box
                 className: 'caption-bottom',
                 // position of the caption (top or bottom)
@@ -53,13 +94,14 @@
                     <li>@Html.Partial("_LogOnPartial")</li>
             </div>
             <div id="title">
-                <h1>LOGO</h1>
+                <h1>MATTHEW RICHARD CROSS SERVICES</h1>
             </div>
                 <ul id="menu">
+                    <li>@Html.ActionLink("HOME", "Index", "Home") / </li>
+                    <li>@Html.ActionLink("ABOUT ME", "Index", "Home") / </li>
                     <li>@Html.ActionLink("CONTACT ME", "About", "Home") / </li>
                     <li>@Html.ActionLink("ENQUIRE", "About", "Home")  / </li>
-                    <li>@Html.ActionLink("HOME", "Index", "Home") / </li>
-                    <li>@Html.ActionLink("ABOUT", "About", "Home")</li>
+                    <li>@Html.ActionLink("TESTIMONIALS", "About", "Home")</li>
                 </ul>
             </div>
         <div id="main">

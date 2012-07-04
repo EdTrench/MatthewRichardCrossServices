@@ -1,10 +1,14 @@
-﻿.captify-skin-captify_text .caption-top, .caption-bottom {
-     background: #000000;
-     color:  #ffffff;
+﻿.captify-skin-captify_text .caption-top, .caption-bottom 
+{
+    background-color: Black;
+    
+        color: White;
      cursor:default;
      padding:50px;
      font-size:30px;
      text-align:left;
+     font-family: Sans-Serif;
+     
 }
  
 .captify-skin-captify_text .caption-top {
