@@ -25,6 +25,7 @@ namespace MatthewRichardCrossServices.Repositories
                 instance = new UnityContainer();
                 instance.RegisterType<IPortfolioFullItemRepository, PortfolioFullItemRepository>();
                 instance.RegisterType<IPortfolioSummaryItemRepository, PortfolioSummaryItemRepository>();
+                instance.RegisterType<IContactRepository, ContactRepository>();
                 return instance;
             }
         }
