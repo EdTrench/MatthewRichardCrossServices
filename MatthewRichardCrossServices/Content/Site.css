@@ -87,3 +87,10 @@ li :hover
 {
     text-align:center;
 }
+
+#testimonialtable
+{
+    font-size:20px;
+    padding: 10px;
+    text-align:left;
+}

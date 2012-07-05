@@ -26,6 +26,7 @@ namespace MatthewRichardCrossServices.Repositories
                 instance.RegisterType<IPortfolioFullItemRepository, PortfolioFullItemRepository>();
                 instance.RegisterType<IPortfolioSummaryItemRepository, PortfolioSummaryItemRepository>();
                 instance.RegisterType<IContactRepository, ContactRepository>();
+                instance.RegisterType<ITestimonialRepository, TestimonialRepository>();
                 return instance;
             }
         }

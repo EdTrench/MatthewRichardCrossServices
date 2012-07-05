@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MatthewRichardCrossServices.Models.Testimonial>
+@{
+    ViewBag.Title = "Testimonials";
+}
+
+<h2>Testimonials</h2>
+<fieldset>
+    <table id = "testimonialtable">
+        @for (Int16 i = 0; i <= Model.Count() - 1 ; i += 2)
+        {
+            <tr>
+                <td>
+                    @Html.Encode(Model.ElementAt(i).Title)
+                </td>
+                <td>
+                    @Html.Encode(Model.ElementAt(i).CustomerName)
+                </td>
+                <td>
+                    @Html.Encode(Model.ElementAt(i).Description)
+                </td>
+                    @if (i + 1 < Model.Count())
+                    {
+                        <td>
+                            @Html.Encode(Model.ElementAt(i+1).Title)
+                        </td>
+                        <td>
+                            @Html.Encode(Model.ElementAt(i + 1).CustomerName)
+                        </td>
+                        <td>
+                            @Html.Encode(Model.ElementAt(i+1).Description)
+                        </td>
+                    }
+            </tr>
+        }
+    </table>
+</fieldset>

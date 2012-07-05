@@ -1,16 +1,18 @@
 ﻿@model MatthewRichardCrossServices.Models.Contact
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Contact Me";
 }
 
-<h2>Create</h2>
+<h2>Contact Me</h2>
+
+<h4>Please feel free to phone me on 07861 291943 or fill in the form below.</h4>
+<fieldset>
 
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
-    <fieldset>
-        <legend>Enquiry Form</legend>
+    
 
         <div class="editor-label">
             @Html.LabelFor(model => model.Forename)
@@ -47,5 +49,16 @@
         <p>
             <input type="submit" value="Send" />
         </p>
-    </fieldset>
+  
 }
+
+        <div id = "mrcaddress">
+            <br />117 Ravenhill Road
+            <br />Knowle
+            <br />Bristol
+        </div>
+
+        <div id = "mrcemail">
+            <br />mattcross101@hotmail.com
+        </div>
+</fieldset>
