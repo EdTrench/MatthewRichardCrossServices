@@ -17,6 +17,12 @@ namespace MatthewRichardCrossServices.Controllers
             _portfolioFullItemRepository = portfolioFullItemRepository;
         }
 
+        public ActionResult IndexBySummary(Int64 SummaryItemId)
+        {
+            var model = _portfolioFullItemRepository.GetByPortfolioSummaryItemId(SummaryItemId);
+            return View(model);
+        }
+        
         //
         // GET: /PortfolioFullItem/
         public ActionResult Index()

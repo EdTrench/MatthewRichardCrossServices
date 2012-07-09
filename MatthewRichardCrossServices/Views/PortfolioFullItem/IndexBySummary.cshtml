@@ -1,0 +1,22 @@
+﻿@model IEnumerable<MatthewRichardCrossServices.Models.PortfolioFullItem>
+
+@{
+    ViewBag.Title = "Portfolio Items";
+}
+
+@foreach (var item in Model)
+{
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => item.PortfolioSummaryItem.Name)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.DescriptionText)
+            </th>
+            <th>
+                <img src = @Html.DisplayFor(modelItem => item.PhotographLocation) />
+            </th>
+        </tr>
+    </table>
+}

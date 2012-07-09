@@ -119,8 +119,8 @@
     <Content Include="Content\skins\ie7\loading-small.gif" />
     <Content Include="Content\skins\ie7\loading.gif" />
     <Content Include="Content\skins\ie7\loading_small.gif" />
-    <Content Include="Content\skins\ie7\next-horizontal.gif" />
-    <Content Include="Content\skins\ie7\prev-horizontal.gif" />
+    <Content Include="Content\skins\ie7\next-horizontal.png" />
+    <Content Include="Content\skins\ie7\prev-horizontal.png" />
     <Content Include="Content\skins\ie7\skin.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -199,9 +199,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\PortfolioFullItem\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\PortfolioSummaryItem\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +206,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Testimonial\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\PortfolioFullItem\IndexBySummary.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
