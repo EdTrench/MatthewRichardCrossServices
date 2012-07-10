@@ -17,7 +17,6 @@
     text-decoration: none;
 }
 
-/*title */
 #title
 {
     background-color: #181818;
@@ -50,8 +49,6 @@ h2
     margin:0px;
 }
 
-/* TAB MENU   
-----------------------------------------------------------*/
 ul#menu 
 {
     padding: 0 0 0px;
@@ -61,22 +58,18 @@ ul#menu
     font-weight: bold;
 }
 
-/*ul#menu*/
 li 
 {
     display: inline;
     list-style: none;
 }
 
-/*ul#menu*/
 li a
 {
     color:#181818;
     text-decoration:none;
 }
 
-
-/*ul#menu*/
 li :hover 
 {
     color: #C0C0C0;
@@ -93,4 +86,9 @@ li :hover
     font-size:20px;
     padding: 10px;
     text-align:left;
+}
+
+#PortfolioFullItem
+{
+    text-align:center;
 }

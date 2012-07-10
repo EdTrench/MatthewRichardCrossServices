@@ -4,19 +4,15 @@
     ViewBag.Title = "Portfolio Items";
 }
 
-@foreach (var item in Model)
-{
-    <table>
-        <tr>
-            <th>
-                @Html.DisplayFor(modelItem => item.PortfolioSummaryItem.Name)
-            </th>
-            <th>
-                @Html.DisplayFor(modelItem => item.DescriptionText)
-            </th>
-            <th>
-                <img src = @Html.DisplayFor(modelItem => item.PhotographLocation) />
-            </th>
-        </tr>
-    </table>
-}
+<div id = "PortfolioFullItem">
+    <ul id="picture-carousel-item" class="mycarousel_item jcarousel-skin-item">
+        @foreach (var item in Model)
+        {
+            <li>
+                <img src=@Html.DisplayFor(modelItem => item.PhotographLocation) width="550px" height="550px" 
+                alt="@Html.DisplayFor(modelItem => item.DescriptionText)"
+                class="mycaptify captify-skin-captify_text"/>
+            </li>
+        }
+    </ul>
+</div>

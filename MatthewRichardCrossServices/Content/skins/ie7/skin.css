@@ -3,7 +3,7 @@
     -webkit-border-radius: 0px;
     border-radius: 0px;
     background: #fff;
-    border: 0px solid #808080;
+    border: 5px solid black;
 }
 
 .jcarousel-skin-ie7 .jcarousel-direction-rtl {
@@ -11,7 +11,7 @@
 }
 
 .jcarousel-skin-ie7 .jcarousel-container-horizontal {
-    width: 99%;
+    width: 98.5%;
     /*width: 1620px;*/
     height: 550px;
     padding: 10px 10px;

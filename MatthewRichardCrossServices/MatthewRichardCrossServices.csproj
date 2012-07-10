@@ -116,6 +116,7 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Content\skins\captify_text\skin.css" />
+    <Content Include="Content\skins\ie7\skin_carousel_item.css" />
     <Content Include="Content\skins\ie7\loading-small.gif" />
     <Content Include="Content\skins\ie7\loading.gif" />
     <Content Include="Content\skins\ie7\loading_small.gif" />
@@ -169,7 +170,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Content\Site_OLD.css" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
