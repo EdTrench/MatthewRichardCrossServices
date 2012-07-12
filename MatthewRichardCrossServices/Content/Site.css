@@ -13,14 +13,25 @@
 {
     font-size: 10px;
     text-align: right;
-    color: Blue;
-    text-decoration: none;
+    background-color:White;
+    padding:0px;
+}
+
+#logindisplay ul
+{
+    list-style: none;
+}
+
+#logindisplay li
+{
+    text-decoration:none;
+    padding: 0px;
 }
 
 #title
 {
-    background-color: #181818;
-    color: White;
+    background-color: Black;
+    color:White;
     font-family: Sans-Serif;
     font-size: 25px;
 }
@@ -39,7 +50,7 @@
 
 h1
 {
-    padding:0x 0px 0px 0px;
+    padding:0px;
     margin:0px;
 }
 
@@ -49,28 +60,28 @@ h2
     margin:0px;
 }
 
-ul#menu 
+#menu
 {
-    padding: 0 0 0px;
-    position: relative;
+    padding::0px;
     margin: 0;
     text-align: right;
     font-weight: bold;
 }
 
-li 
+.mainmenu
 {
-    display: inline;
+    display:inline;
     list-style: none;
+    text-decoration: none;
 }
 
-li a
+.mainmenu a
 {
     color:#181818;
     text-decoration:none;
 }
 
-li :hover 
+.mainmenu :hover 
 {
     color: #C0C0C0;
     text-decoration: none;
@@ -88,7 +99,23 @@ li :hover
     text-align:left;
 }
 
+#PortfolioSummaryItem
+{
+    background-color: Black;
+}
+
+#PortfolioSummaryItem a
+{
+    text-decoration: none;
+}
+
+#PortfolioSummaryItem :hover
+{
+    color: White;
+}
+
 #PortfolioFullItem
 {
-    text-align:center;
+    width:550px;
+    margin: 0px auto;
 }

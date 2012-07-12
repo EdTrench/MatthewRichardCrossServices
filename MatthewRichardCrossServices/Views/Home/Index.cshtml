@@ -3,14 +3,16 @@
     ViewBag.Title = "Matthew Richard Cross Services";
 }
 
-<ul id="picture-carousel-summary" class="mycarousel jcarousel-skin-ie7">
-    @foreach(var item in Model)
-    {
-        <li>
-            <a href="@Url.Action("../PortfolioFullItem/IndexBySummary", new { SummaryItemId = item.Id })" title = "Click Me">
-            <img src=@Html.DisplayFor(modelItem => item.PhotographLocation) width="100%" height="550px" 
-            alt="@Html.DisplayFor(modelItem => item.DescriptionText)"
-            class="mycaptify captify-skin-captify_text"/></a>
-        </li>
-    }
-</ul>
+<div id = "PortfolioSummaryItem">
+    <ul id="picture-carousel-summary" class="mycarousel jcarousel-skin-ie7">
+        @foreach(var item in Model)
+        {
+            <li>
+                <a href="@Url.Action("../PortfolioFullItem/IndexBySummary", new { SummaryItemId = item.Id })" title = "Click Me">
+                <img src=@Html.DisplayFor(modelItem => item.PhotographLocation) width="100%" height="550px" 
+                alt="@Html.DisplayFor(modelItem => item.DescriptionText)"
+                class="mycaptify captify-skin-captify_text"/></a>
+            </li>
+        }
+    </ul>
+</div>
