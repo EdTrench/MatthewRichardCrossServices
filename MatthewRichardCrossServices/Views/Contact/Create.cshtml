@@ -4,10 +4,10 @@
     ViewBag.Title = "Contact Me";
 }
 
+<div id = "aboutme">
 <h2>Contact Me</h2>
 
 <h4>Please feel free to phone me on 07861 291943 or fill in the form below.</h4>
-<fieldset>
 
 @using (Html.BeginForm())
 {
@@ -31,7 +31,7 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.TelephoneNumber)
+            Your Telephone Number
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.TelephoneNumber)
@@ -39,7 +39,7 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.EmailAddress)
+            Your Email Address
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.EmailAddress)
@@ -61,4 +61,4 @@
         <div id = "mrcemail">
             <br />mattcross101@hotmail.com
         </div>
-</fieldset>
+   </div>

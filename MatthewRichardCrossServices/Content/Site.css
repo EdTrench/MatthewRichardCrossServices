@@ -101,7 +101,7 @@ h2
 
 #PortfolioSummaryItem
 {
-    background-color: Black;
+    width:500;
 }
 
 #PortfolioSummaryItem a
@@ -115,6 +115,12 @@ h2
 }
 
 #PortfolioFullItem
+{
+    width:550px;
+    margin: 0px auto;
+}
+
+#aboutme
 {
     width:550px;
     margin: 0px auto;

@@ -116,6 +116,8 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Content\skins\captify_text\skin.css" />
+    <Content Include="Content\skins\ie7\next-horizontal-colour.gif" />
+    <Content Include="Content\skins\ie7\prev-horizontal-colour.gif" />
     <Content Include="Content\skins\ie7\skin_carousel_item.css" />
     <Content Include="Content\skins\ie7\loading-small.gif" />
     <Content Include="Content\skins\ie7\loading.gif" />
@@ -123,6 +125,7 @@
     <Content Include="Content\skins\ie7\next-horizontal.gif" />
     <Content Include="Content\skins\ie7\prev-horizontal.gif" />
     <Content Include="Content\skins\ie7\skin.css" />
+    <Content Include="Content\themes\base\images\MatthewRichardCross.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

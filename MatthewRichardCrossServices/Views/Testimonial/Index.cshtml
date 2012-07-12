@@ -3,8 +3,8 @@
     ViewBag.Title = "Testimonials";
 }
 
-<h2>Testimonials</h2>
-<fieldset>
+<div id = "aboutme">
+    <h2>Testimonials</h2>
     <table id = "testimonialtable">
         @for (Int16 i = 0; i <= Model.Count() - 1 ; i += 2)
         {
@@ -33,4 +33,4 @@
             </tr>
         }
     </table>
-</fieldset>
+</div>
