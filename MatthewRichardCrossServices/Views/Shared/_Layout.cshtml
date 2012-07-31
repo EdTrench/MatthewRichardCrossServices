@@ -14,6 +14,7 @@
     <script src="@Url.Content("../Scripts/lib/captify.tiny.js")" type="text/javascript"></script>
 
     <script type="text/javascript">
+
         //JCarousel Summary
         $(document).ready(function () {
             jQuery('.mycarousel').jcarousel({
@@ -60,32 +61,41 @@
     </script>
 </head>
 <body>
-    <div class="page">
-        <div id="header"></div>
-            <div id="logindisplay">
+<div id="leftpane"></div>
+<div id="middlepane">
+    <div id="logindisplay">
                 <ul>
                     <li>@Html.Partial("_LogOnPartial")</li>
                 </ul>
             </div>
-            <div id="title">
-                <h1>@Html.ActionLink("MATTHEW RICHARD CROSS SERVICES", "Index", "Home")</h1>
-            </div>
-                <ul id="menu">
+        <div id="title">
+        <h1>@Html.ActionLink("MATTHEW RICHARD CROSS SERVICES", "Index", "Home")</h1>
+    </div>
+    <ul id="menu">
                     <li class="mainmenu">@Html.ActionLink("HOME", "Index", "Home") / </li>
                     <li class="mainmenu">@Html.ActionLink("ABOUT ME", "About", "Home") / </li>
                     <li class="mainmenu">@Html.ActionLink("CONTACT ME", "Create", "Contact") / </li>
                     <li class="mainmenu">@Html.ActionLink("TESTIMONIALS", "Index", "Testimonial")</li>
                 </ul>
-            
-        <div id="main">
-            @RenderBody()
-        </div>
-        <div id="footer">
-            <h1>07861 291943</h1>
+    <div id="main">
+        @RenderBody()
+    </div>
+</div>
+    <br />
+<div id="footer">
+
+            <h1><img src="../../Content/themes/base/images/Phone.jpg" /> 01179 158433</h1>
+            <h1><img src="../../Content/themes/base/images/Phone.jpg" /> 07861 291943</h1>
             <h2>Plastering, Decoration, Renovation</h2>
             <br />
             <h6> © Matthew Richard Cross – Bristol</h6>
         </div>
-    </div>
+
+<div id="rightpane"></div>
+
+@*        <div id="main">
+            @RenderBody()
+        </div>*@
+
 </body>
 </html>
