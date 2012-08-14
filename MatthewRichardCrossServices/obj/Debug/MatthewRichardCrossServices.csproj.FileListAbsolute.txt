@@ -15,3 +15,5 @@ C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewR
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\MatthewRichardCrossServices.pdb
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCrossServices.dll
 C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\obj\Debug\MatthewRichardCrossServices.pdb
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\RestSharp.dll
+C:\Projects\MatthewRichardCrossServices\MatthewRichardCrossServices\bin\RestSharp.xml

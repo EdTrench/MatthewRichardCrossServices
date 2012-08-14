@@ -152,6 +152,20 @@ h2
 
 #aboutme
 {
+    text-align:left;
+    width:550px;
+    margin: 0px auto;
+}
+
+#contact-me
+{
+    width:300px;
+    margin: 0px auto;
+}
+
+#thank-you
+{
+    text-align:left;
     width:550px;
     margin: 0px auto;
 }
@@ -161,11 +175,27 @@ h2
     text-align:center;
     padding:0px;
     margin:0px;
-    font-size:20pt;
+    font-size:15pt;
     font-weight:bold;
 }
 
 #FrontPageText
 {
     text-align:center;
+}
+
+.editor-field-message textarea
+{
+    width:300px;
+    height:200px;
+}
+
+.editor-field-contact input
+{
+    width:300px;
+}
+
+.field-validation-error
+{
+    color:Red;
 }

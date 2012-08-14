@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using MatthewRichardCrossServices.Repositories.Interfaces;
 using MatthewRichardCrossServices.Models;
+using MatthewRichardCrossServices.Services.Email;
+using MatthewRichardCrossServices.Helpers;
 
 namespace MatthewRichardCrossServices.Controllers
 {
@@ -31,8 +33,16 @@ namespace MatthewRichardCrossServices.Controllers
         {
             try
             {
-                _contactRepository.Add(contact);
-                return View("Create");
+                if (ModelState.IsValid)
+                {
+                    _contactRepository.Add(contact);
+                    Email.SendEmail("postmaster@" + Globals.MailGun_Domain_Name,
+                        Globals.MRC_Email_Address,
+                        contact.Id + ". New Contact Me Request on " + DateTime.Now,
+                        contact.EmailContent);
+                    return View("Received", contact);
+                }
+                return View(contact);
             }
             catch
             {

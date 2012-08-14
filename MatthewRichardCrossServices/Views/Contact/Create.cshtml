@@ -4,20 +4,19 @@
     ViewBag.Title = "Contact Me";
 }
 
-<div id = "aboutme">
+<div id ="contact-me">
 <h2>Contact Me</h2>
 
-<h4>Please feel free to contact me or fill in the form below.</h4>
+<h4>Please contact me or fill in the form.</h4>
 
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
     
-
         <div class="editor-label">
             @Html.LabelFor(model => model.Forename)
         </div>
-        <div class="editor-field">
+        <div class="editor-field-contact">
             @Html.EditorFor(model => model.Forename)
             @Html.ValidationMessageFor(model => model.Forename)
         </div>
@@ -25,38 +24,44 @@
         <div class="editor-label">
             @Html.LabelFor(model => model.Surname)
         </div>
-        <div class="editor-field">
+        <div class="editor-field-contact">
             @Html.EditorFor(model => model.Surname)
             @Html.ValidationMessageFor(model => model.Surname)
         </div>
 
         <div class="editor-label">
-            Your Telephone Number
+            @Html.LabelFor(model => model.TelephoneNumber)
         </div>
-        <div class="editor-field">
+        <div class="editor-field-contact">
             @Html.EditorFor(model => model.TelephoneNumber)
             @Html.ValidationMessageFor(model => model.TelephoneNumber)
         </div>
-
+        
         <div class="editor-label">
-            Your Email Address
+            @Html.LabelFor(model => model.EmailAddress)
         </div>
-        <div class="editor-field">
+        <div class="editor-field-contact">
             @Html.EditorFor(model => model.EmailAddress)
             @Html.ValidationMessageFor(model => model.EmailAddress)
         </div>
 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Message)
+        </div>
+        <div class="editor-field-message">
+           @Html.EditorFor(model => model.Message)
+           @Html.ValidationMessageFor(model => model.Message)
+        </div>    
+    
         <p>
             <input type="submit" value="Send" />
         </p>
-  
-}
+ }
+ <hr />
         <div id = "mrc">
             <br /><img src="../../Content/themes/base/images/Email.jpg" /> mattcross101@hotmail.com
             <br /><img src="../../Content/themes/base/images/Home.jpg" /> 117 Ravenhill Road
             <br />Knowle
             <br />Bristol
         </div>
-
-
-   </div>
+</div>

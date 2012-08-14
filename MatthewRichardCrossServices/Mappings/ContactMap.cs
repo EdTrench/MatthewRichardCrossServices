@@ -17,6 +17,7 @@ namespace MatthewRichardCrossServices.Mappings
             Map(x => x.Surname);
             Map(x => x.TelephoneNumber);
             Map(x => x.EmailAddress);
+            Map(x => x.Message);
         }
     }
 }

@@ -1,0 +1,26 @@
+﻿@model MatthewRichardCrossServices.Models.Contact
+
+@{
+    ViewBag.Title = "Thank you";
+}
+
+<div id ="thank-you">
+    <h2>Thank you</h2>
+
+    Dear @Model.Forename @Model.Surname,
+    <br />
+    Thank you for you enquiry.
+    <br />
+    I have recieved the folowing details and will be in contact within 1 day.
+    <br />
+    Firstname: @Model.Forename
+    <br />
+    Surname: @Model.Surname
+    <br />
+    Telephone Number: @Model.TelephoneNumber
+    <br />
+    Email Address: @Model.EmailAddress
+    <br />
+    Message: @Model.Message
+    <br />
+</div>
