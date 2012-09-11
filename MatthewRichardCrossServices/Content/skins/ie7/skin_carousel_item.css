@@ -1,9 +1,7 @@
 .jcarousel-skin-item .jcarousel-container {
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
-    border-radius: 0px;
-    background: black;
-    border: 0px solid #808080;
+    border: 1px solid #f00;
 }
 
 .jcarousel-skin-item .jcarousel-direction-rtl {

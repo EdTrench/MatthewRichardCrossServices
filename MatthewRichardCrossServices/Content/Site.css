@@ -93,6 +93,7 @@ h2
 {
     padding:0px;
     margin:0px;
+    color:#A00000;
 }
 
 #menu
@@ -174,9 +175,9 @@ h2
 #mrc
 {
     text-align:center;
-    padding:0px;
+    padding:1px;
     margin:0px;
-    font-size:15pt;
+    font-size:13pt;
     font-weight:bold;
 }
 
@@ -199,4 +200,12 @@ h2
 .field-validation-error
 {
     color:Red;
+}
+
+hr
+{
+    color: red;
+    background-color: #B80000;
+    height: 1px;
+    width:100%;
 }
