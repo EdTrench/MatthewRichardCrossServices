@@ -133,6 +133,7 @@
     <Content Include="Content\themes\base\images\email.jpg" />
     <Content Include="Content\themes\base\images\home.jpg" />
     <Content Include="Content\themes\base\images\MatthewRichardCross.jpg" />
+    <Content Include="Content\themes\base\images\MCPropertyServicesLogo.JPG" />
     <Content Include="Content\themes\base\images\phone.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
