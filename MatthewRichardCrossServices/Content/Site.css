@@ -141,11 +141,6 @@ h2
     text-decoration: none;
 }
 
-#PortfolioSummaryItem :hover
-{
-    color: White;
-}
-
 #PortfolioFullItem
 {
     width:550px;

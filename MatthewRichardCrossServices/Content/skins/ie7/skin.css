@@ -9,16 +9,15 @@
 }
 
 .jcarousel-skin-ie7 .jcarousel-container-horizontal {
-    width: 555px;
-    /*width: 1620px;*/
-    height: 555px;
-    padding: 10px 10px;
+    width: 550px;
+    height: 550px;
+    padding: 0px 0px;
 }
 
 .jcarousel-skin-ie7 .jcarousel-container-vertical {
-    width: 00px;
-    height: 00px;
-    padding: 20px 40px;
+    width: 0px;
+    height: 0px;
+    padding: 0px 0px;
 }
 
 .jcarousel-skin-ie7 .jcarousel-clip {
@@ -27,22 +26,19 @@
 
 .jcarousel-skin-ie7 .jcarousel-clip-horizontal 
 {
-    width: 100%;
-    /*width:  1620px;*/
+    width: 550px;
     height: 550px;
 }
 
 .jcarousel-skin-ie7 .jcarousel-clip-vertical {
-    width:  1500px;
-    height: 1300px;
+    width:  0px;
+    height: 0px;
 }
 
 .jcarousel-skin-ie7 .jcarousel-item 
 {
-    /*width: 20%;*/
-    width: 1620px;
-    height: 100%;
-    /*height: 550px;*/
+    width: 550px;
+    height: 550px;
     border: 1px solid #fff;
 }
 
@@ -62,7 +58,7 @@
 }
 
 .jcarousel-skin-ie7 .jcarousel-item-vertical {
-    margin-bottom: 7px;
+    margin-bottom: 0px;
 }
 
 .jcarousel-skin-ie7 .jcarousel-item-placeholder {

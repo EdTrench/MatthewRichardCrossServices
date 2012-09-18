@@ -9,8 +9,8 @@
 }
 
 .jcarousel-skin-item .jcarousel-container-horizontal {
-    width: 555px;
-    height: 555px;
+    width: 550px;
+    height: 550px;
 }
 
 .jcarousel-skin-item .jcarousel-container-vertical {
@@ -26,22 +26,18 @@
 .jcarousel-skin-item .jcarousel-clip-horizontal 
 {
     width: 550px;
-    /*width:  1620px;*/
     height: 550px;
 }
 
 .jcarousel-skin-item .jcarousel-clip-vertical {
-    width:  500px;
-    height: 1300px;
+    width:  0px;
+    height: 0px;
 }
 
 .jcarousel-skin-item .jcarousel-item 
 {
-    /*width: 20%;*/
-    width: 530px;
+    width: 550px;
     height: 550px;
-    /*height: 550px;*/
-    border: 5px solid black;
 }
 
 .jcarousel-skin-item .jcarousel-item:hover,
