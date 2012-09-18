@@ -121,8 +121,6 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Content\skins\captify_text\skin.css" />
-    <Content Include="Content\skins\ie7\next-horizontal-colour.gif" />
-    <Content Include="Content\skins\ie7\prev-horizontal-colour.gif" />
     <Content Include="Content\skins\ie7\skin_carousel_item.css" />
     <Content Include="Content\skins\ie7\loading-small.gif" />
     <Content Include="Content\skins\ie7\loading.gif" />
