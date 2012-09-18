@@ -136,6 +136,12 @@ h2
     text-align:left;
 }
 
+#PortfolioSummaryItem
+{
+    width:550px;
+    margin: 0px;
+}
+
 #PortfolioSummaryItem a
 {
     text-decoration: none;
